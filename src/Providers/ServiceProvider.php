@@ -1,6 +1,6 @@
 <?php
 
-namespace Laraquick\Providers;
+namespace IslemKms\Providers;
 
 use Illuminate\Contracts\Http\Kernel;
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
