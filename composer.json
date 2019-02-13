@@ -1,0 +1,43 @@
+{
+    "name": "islem-kms/quicky",
+    "type": "library",
+    "description": "A collection of classes and traits that should be extended/used in Laravel projects to speed up development time.",
+    "license": "MIT",
+    "keywords": [
+        "laravel",
+        "quick",
+        "api",
+        "web",
+        "controller",
+        "traits"
+    ],
+    "authors": [
+        {
+            "name": "Islem Khemissi",
+            "email": "khemissi.islem@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "laravel/framework": "5.*",
+        "maatwebsite/excel": "~3.0",
+        "guzzlehttp/guzzle": "~6.0",
+        "spatie/laravel-query-builder": "^1.10"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "IslemKms\\Providers\\ServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "IslemKms\\": "src/"
+        }
+    },
+    "require-dev": {
+        "mpociot/laravel-apidoc-generator": "^3.2"
+    }
+}
